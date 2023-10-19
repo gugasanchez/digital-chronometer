@@ -29,8 +29,29 @@ O programa em Assembly projetado para o microcontrolador 8051 serve como um cron
 <p align="center">
   <img width="461" alt="image" src="https://github.com/gugasanchez/digital-chronometer/assets/62973287/73b8aeee-5680-4918-b64e-0fdee6e80407">
   <br>
-  Figura 1 - Display de 7 Segmentos
+  <em>Figura 1 - Display de 7 Segmentos</em>
 </p>
+
+## Resultados e Discussão
+As imagens a seguir apresentam o funcionamento do código Assembly quando simulado no EdSim51. 
+
+Evidencia-se pela primeira imagem a inicialização do programa e a prontidão para receber entradas dos botões. A segunda captura de tela ilustra a contagem em andamento com um intervalo de 0,25 segundos entre os números, como indicado pelo código. A terceira imagem demonstra a mudança no intervalo de contagem para 1 segundo após a ativação do botão correspondente. 
+
+<p align="center">
+  <img width="461" alt="image" src="https://github.com/gugasanchez/digital-chronometer/assets/62973287/aca0b83a-a6dd-432f-8944-a679e7ff2a39">
+  <br>
+  <em>Figura 2 - Simulação inicial mostrando a prontidão do programa</em>
+  <br><br>
+  <img width="461" alt="image" src="https://github.com/gugasanchez/digital-chronometer/assets/62973287/2595c93b-1577-4eb5-80cb-d522af307d7a">
+  <br>
+  <em>Figura 3 - Contagem em ação com intervalo de 0,25 segundos</em>
+  <br><br>
+  <img width="461" alt="image" src="https://github.com/gugasanchez/digital-chronometer/assets/62973287/cb56f3a4-acf6-4623-8b41-4de9b9cb5a49">
+  <br>
+  <em>Figura 4 - Mudança no intervalo de contagem para 1 segundo</em>
+</p>
+
+Essas simulações confirmam a precisão e a eficácia do código em representar um cronômetro digital, atendendo a todos os requisitos do projeto. A integração bem-sucedida entre o código e a simulação reforça a robustez da abordagem adotada e a relevância de uma programação detalhada para sistemas embarcados.
 
 ## Como executar o código
 Para executar o projeto e ver o cronômetro em ação, siga os passos abaixo:
@@ -46,5 +67,5 @@ Para executar o projeto e ver o cronômetro em ação, siga os passos abaixo:
 4. Encerrando a Simulação:
   - Para parar a simulação, clique no botão Stop.
    
-## Resultados e Conclusão
+## Conclusão
 O projeto ofereceu uma experiência prática valiosa na programação de microcontroladores usando Assembly e na simulação de hardware usando o software EdSim51. Demonstrou eficientemente a implementação de funções de contagem de tempo, detecção de eventos e interfaces de I/O, como esperado pela atividade. O código resultante é um testemunho das habilidades adquiridas e da capacidade de aplicar conceitos teóricos de microcontroladores em um ambiente prático.
