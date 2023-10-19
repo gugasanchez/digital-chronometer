@@ -1,5 +1,9 @@
 # Projeto de Cronômetro Digital usando Assembly e 8051
 
+Criadores:
+- Gustavo Barbosa Sanchez
+- Mateus Curtolo de Goes
+
 ## Resumo
 Este projeto foi desenvolvido como parte de uma prática da disciplina de SEL0641 - Aplicação de Microprocessadores, do curso de Engenharia de Computação da Universidade de São Paulo (USP). O objetivo principal é construir um cronômetro digital utilizando Assembly para o microcontrolador 8051 e simulá-lo no software EdSim51.
 
